@@ -1,0 +1,29 @@
+#include <string>
+#include <iostream>
+using namespace std;
+int main (void)
+{
+/*
+	char* pc;
+	extern int m[10];
+	string[]* s;
+	char** cc;
+	const int a = 6;
+	const int* b;
+	int *const d;
+
+	char c[] = "Hello world!";
+	pc = c;
+
+	int m[10] = {0,1,2,3,4};
+	
+	string str = "Hello";
+	//s = &str;
+
+	//cc = c;
+	//b = a;
+	//a = 7;
+*/
+	std::cout << "Hello World!!!\n";
+	return 1;
+}
