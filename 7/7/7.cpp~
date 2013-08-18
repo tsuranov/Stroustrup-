@@ -22,12 +22,13 @@ void insert(Tnode** node, string word, int count)
 	Tnode** tmp = node;
 	queue<Tnode**> qnode;
 	qnode.push(tmp);
+	
 	for(;;)
 	{
 		tmp = qnode.front();
     	qnode.pop();
     	
-		if(*tmp != NULL)
+		if((Tnode*)(*tmp) != NULL)
 		{
 			qnode.push(&(*tmp) -> left);
 			qnode.push(&(*tmp) -> right);
@@ -40,7 +41,6 @@ void insert(Tnode** node, string word, int count)
 			return;
 		}
 	}
-	*/
 	return;
 }
 

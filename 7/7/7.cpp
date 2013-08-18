@@ -43,7 +43,7 @@ void insert(Tnode** node, string word, int count)
 	}
 	return;
 }
-
+//
 int main (void)
 {
 	Tnode* root;
